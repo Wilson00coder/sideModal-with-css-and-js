@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(185, 185, 185);
+}
+body {
+  background: #676372;
+  font-family: 'Lato', sans-serif;
+}
+
+/* etiqueta nav con class "sideNav */
+.sideNav {
+  height: 100%;
+  width: 0;
+  /* width: 300px; */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+/* estilo boton cerrar */
+.bx {
+  padding: 8px;
+  display: block;
+  transition: 0.5s;
+  font-size: 30px;
+}
+.bx:hover {
+  color: white;
+}
+.closeBtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  /* margin-left: 50px; */
+  /* border-radius: 2px; */
+  margin-top: 25px;
+}
+.closeBtn:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+}
+/* lista menu */
+/* ul */
+.ul__nav {
+  /* background-color: rgba(250, 235, 215, 0.404); */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* li */
+.li__item {
+  /* list-style-type: none; */
+  display: inline-block;
+}
+.li__item:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+}
+/* a */
+.item__link {
+  text-decoration: none;
+  display: block;
+  padding: 10px 40px 10px 40px;
+  transition: 0.5s;
+}
+.item__link:hover {
+  color: white;
+}
